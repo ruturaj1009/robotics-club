@@ -6,6 +6,19 @@
   font-family: 'Poppins', sans-serif;
   background: #000;
 } 
+#loader img {
+  width: 100%;
+  height: 100vh;
+}
+#loader{
+  width: 100%;
+  background: #0a0a0a url("nnws.gif") no-repeat center center;
+  background-size: 35%;
+  height: 100vh;
+  position: fixed;
+  z-index: 99999;
+
+}
 nav{
   display: flex;
   position: inherit;
