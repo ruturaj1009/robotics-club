@@ -10,7 +10,9 @@
    <link rel="icon" type="favicon" href="fav.png" />
 </head>
 
-<body>
+<body oncontextmenu="return false">
+   <div id="loader">
+   </div>
    <!-- navbar section stars here -->
    <section class="navbar">
       <nav>
@@ -319,6 +321,12 @@
          <h5>Designed by @ruturaj</h5>
       </div>
    </section>
+   <script>
+      var loader = document.getElementById("loader");
+      window.addEventListener("load", function(){
+          loader.style.display="none";
+      })
+  </script>
 </body>
 
 </html>
