@@ -223,12 +223,65 @@ h3{
   height: 1px;
   background: white;
 }
-@media (max-width: 520px) {
+#res{
+  display: none;
+}
+@media (max-width: 930px) {
+    #main h2,#main h3,#bt1{
+        margin-top: 4rem;
+    }
     #bt1{
-        display: none;
+      margin-left: 30%;
     }
     h3 .head1{
         margin:0;
+    }
+    #content p{
+      display: none;
+      font-size: 5rem;
+      margin-top: 2rem;
+      color: #000;
+      font-size: 2px;
+      /* margin-left: 10rem; */
+      /* margin-right: 0rem; */
+      background: transparent;
+    }
+    #res{
+      display: flex;
+      background-color: transparent;
+      color: white;
+      margin-left: .5rem;
+    }
+    #project .flip-card{
+      margin-top: 2.5rem;
+    }
+    .col{
+      display: flex;
+      flex-direction: column;
+      margin-right: 0.5rem;
+    }
+    #events ul li{
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+    #events .time{
+      font-size: 1px;
+      outline: none;
+    }
+    #events .time h2,#events .time span{
+      font-size: 1.5rem;
+    }
+    #events .details{
+      display: none;
+      outline: none;
+    }
+    #events p{
+      display: none;
+    }
+    #events .res1{
+      display: flex;
+      color: #f1f1f1;
     }
 }
 span{
@@ -246,7 +299,7 @@ span{
 }
 #content p{
   margin-top: 2.5rem;
-  color: #f2f2f2;
+  color: #fffafa;
   font-size: 19px;
   margin-left: 20rem;
   margin-right: 25rem;
@@ -262,7 +315,7 @@ span{
 }
 #project{
   width: 100%;
-  height: 190vh;
+  /* height: 190vh; */
   background: #000;
 }
 .row1{
@@ -329,7 +382,7 @@ span{
 }
 #team{
   width: 100%;
-  height: 180vh;
+  /* height: 180vh; */
   background: rgb(0, 0, 0);
 }
 #team #heading{
@@ -554,11 +607,9 @@ a {
   flex-direction: row;
 }
 #wm{
-  margin-top: .7rem
-  ;
+  margin-top: .7rem;
 }
 #wm,.social{
-  /* background: rgb(128, 57, 57); */
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -570,6 +621,19 @@ a {
 .social img:hover{
   zoom: 1;
 }
+.res1{
+  display: none;
+}
 .nm{
   margin-left:  50%;
+}
+#wm a{
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1rem;
+  font-family: fantasy;
+}
+#wm a:hover{
+  color: blue;
+  opacity: 0.6;
 }
